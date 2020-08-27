@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#0478af</color>
+    <color name="colorPrimaryDark">#004c7f</color>
+    <color name="colorAccent">#09FBD3</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="colorSurface">#212121</color>
+    <color name="colorBackground">#212121</color>
+
+    <color name="navBarColor">#121212</color>
+
+    <color name="colorLightGray">#3A3A3A</color>
+    <color name="colorDarkGray">#121212</color>
+
+    <color name="toolbarTitleColor">@color/material_on_surface_emphasis_high_type</color>
+
+    <color name="colorHighPriority">#FF073A</color>
+    <color name="colorMediumPriority">#FFBF00</color>
+    <color name="colorLowPriority">#83F52C</color>
+    <color name="colorElsePriority">@color/colorSurface</color>
+</resources>

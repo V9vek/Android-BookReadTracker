@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/finishedFragment"
+        android:title="Finished"
+        android:icon="@drawable/ic_finished"/>
+
+    <item
+        android:id="@+id/readingFragment"
+        android:title="Reading"
+        android:icon="@drawable/ic_reading"/>
+
+    <item
+        android:id="@+id/timelineFragment"
+        android:title="Timeline"
+        android:icon="@drawable/ic_timeline"/>
+
+</menu>

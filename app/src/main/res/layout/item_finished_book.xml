@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        tools:text="The Da Vinci Code" />
+
+    <TextView
+        android:textColor="@android:color/secondary_text_dark"
+        android:id="@+id/tvAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginStart="8dp"
+        tools:text="Dan Brown" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="2dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/tvAuthor"
+        android:layout_alignTop="@id/tvFinishedReview"
+        android:layout_alignBottom="@id/tvFinishedReview"
+        android:layout_marginStart="4dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/tvFinishedReview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvAuthor"
+        android:layout_alignStart="@id/view"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:padding="8dp"
+        android:textColor="@android:color/tertiary_text_dark"
+        android:text="Finished" />
+
+    <ImageView
+        android:id="@+id/ivCircle"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_below="@id/view"
+        android:layout_alignStart="@id/tvAuthor"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/circle_priority" />
+
+    <TextView
+        android:id="@+id/tvFinishedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="8dp"
+        android:layout_toRightOf="@id/ivCircle"
+        android:textSize="12sp"
+        android:textColor="@android:color/tertiary_text_dark"
+        tools:text="22-Jun-2020" />
+</RelativeLayout>
